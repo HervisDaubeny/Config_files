@@ -1,0 +1,13 @@
+### Uncomment following lines for VI keybindings in ZSH ###
+bindkey -v
+vimode=i
+KEYTIMEOUT=1
+
+### ALiases
+alias gcc='gcc -Wall -Wextra -std=c99'
+alias ret='echo $?'
+alias pg='echo "8.8.8.8" | ping'
+alias bat='~/S/b.sh'
+
+### Uncomment for swapping Escape and Caps-Lock ###
+setxkbmap -option caps:swapescape
